@@ -26,5 +26,6 @@ headers = {
 
 response = requests.get(url, headers=headers)
 
-with open("github_cookies.html", "wb") as f:
+with open("github_with_cookies.html", "wb") as f:
     f.write(response.content)
+
