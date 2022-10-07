@@ -34,13 +34,13 @@ print(response.url)
 # 状态码
 print(response.status_code)
 
-# # 打印响应头
-# print(response.headers)
-#
-# # 打印响应对象对应请求的请求头
-# print(response.request.headers)
+# 打印响应头
+print(response.headers)
 
-# # 打印响应设置cookie
+# 打印响应对象对应请求的请求头
+print(response.request.headers)
+
+# 打印响应设置cookie
 print(response.cookies)
 
 
